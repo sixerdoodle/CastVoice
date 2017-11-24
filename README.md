@@ -41,5 +41,19 @@ MP3s strung together in one SpeakMP3 Post get appended together and sent as one 
 
 Back to back posts will disconnect betweeen posts so there's a beep and a slight pause
 
+== Install instructions ==
 
+Had to reinstall due to crashed HD, so here's what I had to do to reproduce
+
+1 - Install Node.js
+2 - Download chromecast-audio-stream-master.zip from https://github.com/acidhax/chromecast-audio-stream and unpack to \CastVoice\
+3 - In \CastVoice\ top level (with the Gruntfile.js) do an npm install grunt
+4 - then npm install grunt-cli
+5 - then npm install electron-prebuilt
+6 - replace the chromcast-audio-stream main.js and lib.js with mine
+7 - npm install
+8 - grunt
+9 - kill the resulting run and restart with something like:
+C:\CastVoice\C:\CastVoice\node_modules\electron-prebuilt\dist\electron.exe c:\CastVoice\build\ --CastVoice --Device Chrome* --Port 8080
+should be it!
 
