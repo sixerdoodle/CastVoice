@@ -62,7 +62,7 @@ Had to reinstall due to crashed HD, so here's what I had to do to reproduce
 8 - grunt
 
 9 - kill the resulting run and restart with something like:
-C:\CastVoice\C:\CastVoice\node_modules\electron-prebuilt\dist\electron.exe c:\CastVoice\build\ --CastVoice --Device Chrome* --Port 8080
+C:\CastVoice\node_modules\electron-prebuilt\dist\electron.exe c:\CastVoice\build\ --CastVoice --Device Chrome* --Port 8080
 
 should be it!
 
