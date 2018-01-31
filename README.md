@@ -2,6 +2,8 @@
 
 Make Google Home speak
 
+<Stopped work on this, move to Google-Home-Notifier https://github.com/sixerdoodle/google-home-notifier >
+
 Modifications to https://github.com/acidhax/chromecast-audio-stream that allow you to tell Google Home to speak pre-defined phrases
 
 ** fair warning ** this is currently a total hack job.  maybe someone with better java skills will pick up the idea and run with it
